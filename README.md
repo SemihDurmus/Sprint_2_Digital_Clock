@@ -1,4 +1,3 @@
-## Sprint 2
+ https://semihdurmus.github.io/Sprint_2_Digital_Clock/
 
-
-  [Sprint-2 Assignment](https://github.com/clarusway/cw-fs-workshop/blob/master/sprint-evaluation/sprint/sprint2/assignment.pdf)
+## Sprint 2 Digital Clock
