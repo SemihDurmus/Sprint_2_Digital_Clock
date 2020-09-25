@@ -109,7 +109,7 @@
     * {
         font-size: 9px;
     }
-    #clock {
+    .clock {
         height: 13rem;
     }
 }
@@ -118,7 +118,7 @@
     * {
         font-size: 7px;
     }
-    #clock {
+    .clock {
         height: 13rem;
     }
 }
@@ -127,7 +127,7 @@
     * {
         font-size: 6px;
     }
-    #clock {
+    .clock {
         height: 13rem;
     }
 }
@@ -136,7 +136,7 @@
     * {
         font-size: 5px;
     }
-    #clock {
+    .clock {
         height: 17rem;
     }
     
