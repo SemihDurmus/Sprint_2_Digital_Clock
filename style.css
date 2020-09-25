@@ -31,7 +31,7 @@
     background-image: url("./assets/earth.jpg");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-right: 4rem;
@@ -46,7 +46,7 @@
     background-image: url("./assets/earth.jpg");
     background-color: rgba(0,0,0,0.0);
     background-blend-mode: multiply;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     padding-right: 4rem;
     padding-left:4rem;
