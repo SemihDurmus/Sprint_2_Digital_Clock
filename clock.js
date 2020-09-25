@@ -39,3 +39,19 @@ function clock() {
     }
 }
 
+function darkMode() {
+    let cl_hours = document.querySelectorAll(".shine");
+    let clock_bg = document.querySelector(".clock");
+    body_bg = document.querySelector(".big_body");
+
+    for (let i = 0; i < cl_hours.length; i++) {
+        cl_hours[i].classList.toggle("day_shine")
+    }
+
+    clock_bg.classList.toggle("day_clock");
+    body_bg.classList.toggle("big_body_day");
+
+
+
+
+}

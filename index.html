@@ -6,9 +6,13 @@
     <title>Digital Clock</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="big_body">
+    <div class="toggle">
+        <input type="checkbox" id="demo" onChange="darkMode()">
+        <label for="demo"></label>
+    </div>
 
-    <div id="clock">
+    <div class="clock">
         <div class="shine" id="hours"></div>
         <div class="colon shine">:</div>
         <div class="shine" id="minutes"></div>
