@@ -31,7 +31,7 @@
     background-image: url("./assets/earth.jpg");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
     padding-right: 4rem;
@@ -46,7 +46,7 @@
     background-image: url("./assets/earth.jpg");
     background-color: rgba(0,0,0,0.0);
     background-blend-mode: multiply;
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
     padding-right: 4rem;
     padding-left:4rem;
@@ -106,10 +106,26 @@
     color:var(--day_color);             
 }
 
+@media screen and (max-width: 800px) {
+
+
+    .big_body, 
+    .big_body_day {
+        background-size: auto 100%;
+    }
+
+}
+
 @media screen and (max-width: 640px) {
     * {
         font-size: 9px;
     }
+
+    .big_body, 
+    .big_body_day {
+        background-size: auto 100%;
+    }
+
     .clock {
         height: 13rem;
     }
@@ -119,6 +135,13 @@
     * {
         font-size: 7px;
     }
+
+    .big_body, 
+    .big_body_day {
+        background-image: url("./assets/earth_small.jpg");
+        background-size: auto 100%;
+    }
+
     .clock {
         height: 13rem;
     }
@@ -128,6 +151,12 @@
     * {
         font-size: 6px;
     }
+    .big_body, 
+    .big_body_day {
+        background-image: url("./assets/earth_small.jpg");
+        background-size: auto 100%;
+    }
+
     .clock {
         height: 13rem;
     }
@@ -136,6 +165,11 @@
 @media screen and (max-width: 300px) {
     * {
         font-size: 5px;
+    }
+    .big_body, 
+    .big_body_day {
+        background-image: url("./assets/earth_small.jpg");
+        background-size: auto 100%;
     }
     .clock {
         height: 17rem;
