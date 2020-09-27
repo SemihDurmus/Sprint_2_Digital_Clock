@@ -5,6 +5,9 @@ const am_pm = document.querySelector('#am-pm');
 
 const interval = setInterval(clock, 1000);
 
+const cl_hours = document.querySelectorAll(".shine");
+const clock_bg = document.querySelector(".clock");
+const body_bg = document.querySelector(".big_body");
 
 function clock() {
     let h = new Date().getHours();
@@ -39,10 +42,29 @@ function clock() {
     }
 }
 
+// let h = new Date().getHours();
+
+// if (h > 18 && h < 8) {
+//     for (let i = 0; i < cl_hours.length; i++) {
+//         cl_hours[i].className = "shine"
+//     }
+
+//     clock_bg.className = "clock";
+//     body_bg.className = "big_body";
+// } else {
+
+//     for (let i = 0; i < cl_hours.length; i++) {
+//         cl_hours[i].className = "day_shine"
+//     }
+
+//     clock_bg.className = "day_clock";
+//     body_bg.className = "big_body_day";
+// }
+
+
+
+
 function darkMode() {
-    let cl_hours = document.querySelectorAll(".shine");
-    let clock_bg = document.querySelector(".clock");
-    body_bg = document.querySelector(".big_body");
 
     for (let i = 0; i < cl_hours.length; i++) {
         cl_hours[i].classList.toggle("day_shine")
@@ -50,8 +72,4 @@ function darkMode() {
 
     clock_bg.classList.toggle("day_clock");
     body_bg.classList.toggle("big_body_day");
-
-
-
-
 }
